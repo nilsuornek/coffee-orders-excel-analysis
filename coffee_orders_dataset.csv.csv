@@ -1,0 +1,101 @@
+﻿order_id;order_datetime;city;store_id;channel;payment_method;customer_id;customer_type;membership_tier;product_category;item_count;base_amount;discount_type;discount_amount;delivery_fee;final_amount;prep_minutes;delivery_minutes;status;rating;complaint_tag
+1001;1.01.2026 08:45;Istanbul;IST_01;Pickup;Card;C001;New;None;Coffee;2;120;None;0;0;120;6;;Completed;5;
+1002;1.01.2026 09:10;Ankara;ANK_02;Courier;Wallet;C002;Returning;Silver;Sandwich;1;95;Coupon;10;20;105;12;38;Completed;4;
+1003;1.01.2026 09:30;Izmir;IZM_01;Courier;Card;C003;New;None;Coffee;1;60;None;0;20;80;5;55;Completed;2;Late
+1004;1.01.2026 10:05;Istanbul;IST_03;Pickup;Cash;C004;Returning;Gold;Dessert;3;150;Campaign;20;0;130;9;;completed;5;
+1005;1.01.2026 10:40;Bursa;BR_01;Courier;Card;C005;Returning;None;Tea;2;70;None;0;20;90;7;42;Completed;3;Cold
+1006;1.01.2026 11:15;Antalya;ANT_01;Courier;Card;C006;New;None;Coffee;1;55;Coupon;10 TL;20;65;6;60;Completed;1;Wrong Item
+1007;1.01.2026 11:50;Istanbul;IST_01;Pickup;Wallet;C007;Returning;Silver;Coffee;4;220;None;0;0;220;15;;Completed;4;
+1008;1.01.2026 12:20;Ankara;ANK_01;Courier;Card;C008;New;None;Sandwich;2;180;Campaign;30;20;170;14;70;Completed;2;Late
+1009;1.01.2026 12:55;Izmir;IZM_02;Pickup;Card;C009;Returning;None;Dessert;1;65;None;0;0;65;4;;Cancelled;;
+1010;1.01.2026 13:10;Istanbul;IST_02;Courier;Wallet;C010;Returning;Gold;Coffee;3;180;Coupon;20;20;180;10;45;Completed;5;
+1011;2.01.2026 09:05;Ankara;ANK_02;Courier;Card;C011;New;None;Tea;2;80;None;0;20;100;6;50;Completed;4;
+1012;2.01.2026 09:40;Istanbul;IST_03;Pickup;Card;C012;Returning;None;Coffee;1;55;None;0;0;55;-3;;Completed;3;
+1013;2.01.2026 10:10;Izmir;IZM_01;Courier;Wallet;C013;Returning;Silver;Sandwich;2;160;Campaign;25;20;155;11;65;Completed;2;Late
+1014;2.01.2026 10:45;Bursa;BR_01;Pickup;Cash;C014;New;None;Dessert;2;110;None;0;0;110;8;;Completed;5;
+1015;2.01.2026 11:30;Antalya;ANT_02;Courier;Card;C015;Returning;Gold;Coffee;2;140;Coupon;15;20;145;9;40;Completed;4;
+1016;2.01.2026 12:00;Istanbul;IST_01;Courier;Card;C016;Returning;None;Coffee;1;60;None;0;20;80;5;200;Completed;1;Late
+1017;2.01.2026 12:25;Ankara;ANK_01;Pickup;Wallet;C017;New;None;Tea;3;90;Campaign;10;0;80;7;;Completed;4;
+1018;2.01.2026 13:05;Izmir;IZM_02;Courier;Card;C018;Returning;Silver;Dessert;2;130;None;0;20;150;10;48;Completed;3;
+1019;2.01.2026 13:40;Istanbul;IST_02;Pickup;Card;C019;Returning;Gold;Sandwich;1;85;None;0;0;85;6;;Refunded;;
+1020;2.01.2026 14:10;Bursa;BR_02;Courier;Wallet;C020;New;None;Coffee;2;120;Coupon;20;20;120;8;52;Completed;4;
+1021;3.01.2026 09:00;Istanbul;IST_01;Courier;Card;C021;Returning;Silver;Coffee;3;180;None;0;20;200;12;44;Completed;5;
+1022;3.01.2026 09:35;Ankara;ANK_02;Pickup;Card;C022;New;None;Tea;1;40;None;0;0;40;3;;Completed;4;
+1023;3.01.2026 10:05;Izmir;IZM_01;Courier;Wallet;C023;Returning;None;Sandwich;2;170;Campaign;20;20;170;15;80;Completed;2;Late
+1024;3.01.2026 10:40;Istanbul;IST_03;Pickup;Cash;C024;Returning;Gold;Dessert;3;165;None;0;0;165;9;;Completed;5;
+1025;3.01.2026 11:20;Antalya;ANT_01;Courier;Card;C025;New;None;Coffee;1;50;None;0;20;70;6;55;Completed;3;
+1026;3.01.2026 11:55;Bursa;BR_01;Courier;Card;C026;Returning;None;Tea;2;75;Coupon;10;20;85;7;46;Completed;4;
+1027;3.01.2026 12:30;Istanbul;IST_02;Pickup;Wallet;C027;Returning;Silver;Coffee;4;240;Campaign;30;0;210;18;;Completed;5;
+1028;3.01.2026 13:00;Ankara;ANK_01;Courier;Card;C028;New;None;Sandwich;2;160;None;0;20;180;11;60;Completed;2;Cold
+1029;3.01.2026 13:45;Izmir;IZM_02;Pickup;Card;C029;Returning;None;Dessert;1;60;None;0;0;60;5;;Cancelled;;
+1030;3.01.2026 14:15;Istanbul;IST_01;Courier;Wallet;C030;Returning;Gold;Coffee;2;140;Coupon;20;20;140;10;42;Completed;5;
+1031;4.01.2026 08:50;Bursa;BR_02;Pickup;Card;C031;New;None;Coffee;1;58;None;0;0;58;4;;Completed;4;
+1032;4.01.2026 09:15;Antalya;ANT_01;Courier;Cash;C032;Returning;None;Tea;2;72;Campaign;12;20;80;8;47;Completed;3;
+1033;4.01.2026 09:40;Ankara;ANK_02;Courier;Card;C033;Returning;Silver;Sandwich;1;105;None;0;20;125;10;58;Completed;2;Wrong Item
+1034;4.01.2026 10:05;Istanbul;IST_03;Courier;Wallet;C034;New;None;Coffee;3;165;Coupon;15;20;170;9;35;COMPLETED;5;
+1035;4.01.2026 10:35;Izmir;IZM_01;Pickup;Card;C035;Returning;Gold;Dessert;2;120;None;0;0;120;7;;Completed;5;
+1036;4.01.2026 11:05;Istanbul;IST_02;Courier;Card;C036;Returning;None;Coffee;2;110;Coupon;20;20;105;6;41;Completed;4;
+1037;4.01.2026 11:30;Ankara;ANK_01;Pickup;Wallet;C037;New;None;Tea;1;45;None;0;0;45;5;;Completed;4;
+1038;4.01.2026 12:10;Bursa;BR_01;Courier;Card;C038;Returning;Silver;Sandwich;2;150;Campaign;25;20;145;12;72;Completed;2;Late
+1039;4.01.2026 12:45;Antalya;ANT_02;Courier;Wallet;C039;Returning;Gold;Coffee;1;62;None;0;20;82;7;49;Completed;3;
+1040;4.01.2026 13:20;Istanbul;IST_01;Pickup;Cash;C040;Returning;None;Dessert;3;170;None;0;0;170;16;;Completed;4;
+1041;5.01.2026 09:00;Izmir;IZM_02;Courier;Card;C041;New;None;Coffee;2;118;Coupon;10;20;128;8;46;Completed;4;
+1042;5.01.2026 09:25;Istanbul;IST_03;Pickup;Wallet;C042;Returning;Silver;Tea;2;70;None;0;0;70;6;;Completed;5;
+1043;5.01.2026 09:50;Ankara;ANK_02;Courier;Wallet;C043;Returning;None;Sandwich;2;175;Campaign;30;20;165;13;75;Completed;1;Late
+1044;5.01.2026 10:15;Bursa;BR_02;Courier;Card;C044;New;None;Dessert;1;68;None;0;20;88;5;52;Completed;3;Cold
+1045;5.01.2026 10:45;Antalya;ANT_01;Pickup;Card;C045;Returning;Gold;Coffee;3;195;Employee;40;0;155;12;;Completed;5;
+1046;5.01.2026 11:10;Istanbul;IST_02;Courier;Card;C046;Returning;Silver;Coffee;1;59;None;0;20;79;4;44;Cancelled;;
+1047;5.01.2026 11:40;Izmir;IZM_01;Courier;Card;C047;New;None;Tea;2;78;Coupon;15 TL;20;83;7;56;Completed;2;Payment Issue
+1048;5.01.2026 12:05;Ankara;ANK_01;Pickup;Cash;C048;Returning;None;Dessert;2;115;None;0;0;115;9;;Completed;4;
+1049;5.01.2026 12:35;Istanbul;IST_01;Courier;Wallet;C049;Returning;Gold;Sandwich;1;92;Coupon;12;20;100;8;39;Completed;4;
+1050;5.01.2026 13:05;Bursa;BR_01;Pickup;Card;C050;New;None;Coffee;2;124;Campaign;20;0;104;11;;Completed;3;
+1051;6.01.2026 08:35;Antalya;ANT_02;Courier;Card;C051;Returning;Silver;Coffee;2;130;None;0;20;150;9;43;Completed;5;
+1052;6.01.2026 09:05;Istanbul;IST_03;Courier;Wallet;C052;New;None;Tea;1;42;None;0;20;62;6;61;Completed;2;Late
+1053;6.01.2026 09:25;Ankara;ANK_02;Pickup;Card;C053;Returning;None;Dessert;1;66;None;0;0;66;5;;completed;4;
+1054;6.01.2026 09:55;Izmir;IZM_02;Courier;Cash;C054;Returning;Gold;Sandwich;2;168;Campaign;20;20;168;10;58;Completed;3;
+1055;6.01.2026 10:20;Bursa;BR_02;Courier;Card;C055;New;None;Coffee;3;180;Coupon;25;20;175;14;77;Completed;1;Late
+1056;6.01.2026 10:50;Istanbul;IST_01;Pickup;Wallet;C056;Returning;Silver;Coffee;1;57;None;0;0;57;4;;Completed;5;
+1057;6.01.2026 11:15;Antalya;ANT_01;Courier;Card;C057;Returning;None;Tea;2;74;None;0;20;94;8;46;Refunded;;
+1058;6.01.2026 11:45;Ankara;ANK_01;Courier;Wallet;C058;New;None;Coffee;2;112;Campaign;15;20;117;7;40;Completed;4;
+1059;6.01.2026 12:10;Izmir;IZM_01;Pickup;Cash;C059;Returning;Gold;Dessert;3;160;None;0;0;160;13;;Completed;5;
+1060;6.01.2026 12:40;Istanbul;IST_02;Courier;Card;C060;Returning;Silver;Sandwich;1;98;None;0;20;118;9;49;Completed;3;Cold
+1061;7.01.2026 08:55;Bursa;BR_01;Courier;Card;C061;New;None;Tea;2;76;None;0;20;96;6;45;Completed;4;
+1062;7.01.2026 09:20;Istanbul;IST_03;Pickup;Card;C062;Returning;None;Coffee;4;240;Coupon;30;0;210;17;;Completed;5;
+1063;7.01.2026 09:45;Ankara;ANK_02;Courier;Wallet;C063;Returning;Gold;Coffee;1;58;None;0;20;78;5;47;Completed;4;
+1064;7.01.2026 10:05;Izmir;IZM_02;Courier;Card;C064;New;None;Sandwich;2;160;Campaign;35;20;145;12;90;Completed;1;Late
+1065;7.01.2026 10:35;Antalya;ANT_02;Pickup;Cash;C065;Returning;Silver;Dessert;2;118;None;0;0;118;8;;Cancelled;;
+1066;7.01.2026 11:00;Istanbul;IST_01;Courier;Card;C066;Returning;None;Tea;3;99;Coupon;15;20;104;9;55;Completed;3;Payment Issue
+1067;7.01.2026 11:30;Bursa;BR_02;Courier;Wallet;C067;New;None;Coffee;2;122;None;0;20;142;7;41;Completed;5;
+1068;7.01.2026 12:00;Ankara;ANK_01;Pickup;Wallet;C068;Returning;Gold;Sandwich;1;90;None;0;0;90;6;;Completed;4;
+1069;7.01.2026 12:25;Izmir;IZM_01;Courier;Card;C069;Returning;Silver;Coffee;2;126;Coupon;20;20;126;10;53;Completed;2;Wrong Item
+1070;7.01.2026 13:05;Istanbul;IST_02;Pickup;Card;C070;New;None;Dessert;1;64;None;0;0;64;5;;Completed;4;
+1071;8.01.2026 09:10;Antalya;ANT_01;Courier;Card;C071;Returning;Gold;Coffee;3;198;Campaign;30;20;188;13;62;Completed;5;
+1072;8.01.2026 09:35;Ankara;ANK_02;Courier;Cash;C072;New;None;Tea;1;41;None;0;20;61;4;49;Completed;3;
+1073;8.01.2026 10:00;Istanbul;IST_03;Pickup;Wallet;C073;Returning;Silver;Coffee;2;120;None;0;0;120;7;;Completed;5;
+1074;8.01.2026 10:25;Bursa;BR_01;Courier;Card;C074;Returning;None;Sandwich;2;172;Coupon;18;20;174;12;71;Completed;2;Late
+1075;8.01.2026 10:55;Izmir;IZM_02;Pickup;Card;C075;New;None;Dessert;2;112;None;0;0;112;9;;Completed;4;
+1076;8.01.2026 11:20;Istanbul;IST_01;Courier;Wallet;C076;Returning;Gold;Tea;3;96;Campaign;10;20;106;8;40;Completed;4;
+1077;8.01.2026 11:45;Antalya;ANT_02;Courier;Card;C077;Returning;Silver;Coffee;1;56;None;0;20;76;6;44;Refunded;;
+1078;8.01.2026 12:15;Ankara;ANK_01;Pickup;Cash;C078;New;None;Coffee;2;118;Coupon;25;0;93;10;;Completed;3;
+1079;8.01.2026 12:50;Bursa;BR_02;Courier;Card;C079;Returning;Gold;Dessert;1;70;None;0;20;90;5;52;Completed;3;Cold
+1080;8.01.2026 13:20;Istanbul;IST_02;Courier;Wallet;C080;Returning;None;Sandwich;1;98;Campaign;15;20;103;7;120;Completed;1;Late
+1081;9.01.2026 08:40;Izmir;IZM_01;Courier;Card;C081;New;None;Tea;2;74;None;0;20;94;6;48;Completed;4;
+1082;9.01.2026 09:05;Istanbul;IST_03;Pickup;Card;C082;Returning;Silver;Coffee;3;175;None;0;0;175;12;;Completed;5;
+1083;9.01.2026 09:30;Ankara;ANK_02;Courier;Wallet;C083;Returning;None;Sandwich;2;165;Campaign;20;20;165;11;66;Completed;2;Wrong Item
+1084;9.01.2026 10:00;Bursa;BR_01;Pickup;Wallet;C084;New;None;Dessert;1;62;None;0;0;62;4;;Completed;4;
+1085;9.01.2026 10:30;Antalya;ANT_01;Courier;Card;C085;Returning;Gold;Coffee;2;138;Coupon;20;20;138;9;45;Completed;4;
+1086;9.01.2026 10:55;Istanbul;IST_01;Courier;Card;C086;Returning;Silver;Tea;1;44;None;0;20;64;5;51;Cancelled;;
+1087;9.01.2026 11:25;Izmir;IZM_02;Courier;Card;C087;New;None;Coffee;4;240;Campaign;35;20;225;16;79;Completed;1;Late
+1088;9.01.2026 11:50;Ankara;ANK_01;Pickup;Cash;C088;Returning;Gold;Sandwich;1;88;None;0;0;88;6;;Completed;5;
+1089;9.01.2026 12:15;Bursa;BR_02;Courier;Wallet;C089;Returning;None;Dessert;2;130;Coupon;10 TL;20;140;8;60;Completed;2;Payment Issue
+1090;9.01.2026 12:45;Istanbul;IST_02;Pickup;Card;C090;New;None;Coffee;1;55;None;0;0;55;5;;Completed;4;
+1091;10.01.2026 09:00;Antalya;ANT_02;Courier;Card;C091;Returning;Silver;Coffee;2;128;None;0;20;148;9;42;Completed;5;
+1092;10.01.2026 09:25;Istanbul;IST_03;Courier;Wallet;C092;New;None;Tea;2;78;Campaign;15;20;83;7;58;Completed;3;Cold
+1093;10.01.2026 09:55;Ankara;ANK_02;Pickup;Card;C093;Returning;None;Dessert;3;156;None;0;0;156;14;;Completed;4;
+1094;10.01.2026 10:20;Izmir;IZM_01;Courier;Cash;C094;Returning;Gold;Sandwich;1;97;Coupon;12;20;105;8;49;Completed;4;
+1095;10.01.2026 10:50;Bursa;BR_01;Courier;Card;C095;New;None;Coffee;3;186;Campaign;40;20;166;13;85;Completed;1;Late
+1096;10.01.2026 11:15;Istanbul;IST_01;Pickup;Wallet;C096;Returning;Silver;Tea;1;43;None;0;0;43;4;;Completed;5;
+1097;10.01.2026 11:40;Antalya;ANT_01;Courier;Card;C097;Returning;Gold;Dessert;2;120;None;0;20;140;9;46;Refunded;;
+1098;10.01.2026 12:05;Ankara;ANK_01;Courier;Wallet;C098;New;None;Coffee;2;118;Coupon;25;20;113;7;43;Completed;4;
+1099;10.01.2026 12:35;Izmir;IZM_02;Pickup;Cash;C099;Returning;None;Coffee;1;58;None;0;0;58;6;;Completed;3;
+1100;10.01.2026 13:05;Istanbul;IST_02;Courier;Card;C100;Returning;Gold;Sandwich;2;164;None;0;20;184;10;57;Completed;2;Wrong Item
